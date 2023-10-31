@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+float a,b,c,d;
+printf("Enter the numbers:\n");
+scanf("%f%f%f%f",&a,&b,&c,&d);
+if((a<b)&&(a<c)&&(a<d))
+printf("The smallest number is:%f",a);
+if((b<a)&&(b<c)&&(b<d))
+printf("The smallest number is:%f",b);
+if((c<a)&&(c<b)&&(c<d))
+printf("The smallest number is:%f",c);
+if((d<a)&&(d<b)&&(d<c))
+printf("The smallest number is:%f",d);
+}
