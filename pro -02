@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int a=10;
+printf("%d\n",a);
+printf("enter a intiger: ");
+scanf("%d",&a);
+printf("new value of a= %d\n",a);
+}
