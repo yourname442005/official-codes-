@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int m,s,sst,b,e,a,avg;
+//marks must be lower than 100
+printf("Enter Maths Marks:\n");
+scanf("%d",&m);
+printf("Enter physics Marks:\n");
+scanf("%d",&m);
+printf("Enter chemistry Marks:\n");
+scanf("%d",&s);
+printf("Enter computer science  Marks:\n");
+scanf("%d",&sst);
+printf("Enter Bengali Marks:\n");
+scanf("%d",&b);
+printf("Enter English Marks:\n");
+scanf("%d",&e);
+a=m+s+sst+b+e;
+avg=a/5;
+printf("Average of all the marks is:%d\n",avg);
+}
