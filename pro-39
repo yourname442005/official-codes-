@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+float amt,dis;
+printf("Enter amount:");
+scanf("%f",&amt);
+printf("Enter discount:");
+scanf("%f",&dis);
+if(dis>=10 && dis<50)
+{
+float bill=amt-amt*dis/100;
+bill=bill+bill*18/100;
+printf("Bill=%f",bill);
+}
+else if(dis>=50 && dis<=100)
+{
+float bill=amt-amt*dis/100;
+bill=bill+bill*2/10;
+printf("Bill=%f",bill);
+}
+else
+printf("ERROR!");
+}
