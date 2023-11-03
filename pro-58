@@ -1,0 +1,20 @@
+#include<stdio.h>
+int rec(int);
+int main()
+{
+    int a ,fact;
+    printf("enter a value: ");
+    scanf("%d",&a);
+    
+    fact=rec(a);
+    printf("the factorial=%d\n",fact);
+    return 0;
+    
+}
+int rec(int x)
+{
+    int f=0,i;
+    for(i=x;i>=1;i--)
+    f=f+i;
+    return(f);
+}
